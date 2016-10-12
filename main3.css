@@ -1,0 +1,50 @@
+body {
+    background-color: powderblue;
+    font-family: cambria;
+}
+
+.main{
+      border: 2px solid black;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+}
+
+.left {
+    border: 1px solid black;
+    padding: 180px;
+    background-image:url(http://www.oddcities.com/wp-content/uploads/2013/01/MontSaintMichelFrance.jpg);
+    background-size: cover;
+
+}
+
+.left h1 {
+    color: white;
+    text-align: center;
+
+}
+
+.left p {
+    color: white;
+    text-align: center;
+}
+
+.left h3 {
+    color: white;
+    text-align: center;
+}
+
+
+.right {
+    border: 1px solid black;
+    padding: 180px;
+    background-color: white;
+}
+
+.right h3 {
+    color: black;
+}
+
+.right p {
+    color: black;
+}
